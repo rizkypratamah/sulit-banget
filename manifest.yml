@@ -1,0 +1,11 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: sulit-banget
+  host: sulit-banget
+  disk_quota: 1024M
+  services:
+  - sulit-banget-cloudantNoSQLDB
+  - dashboardiot
